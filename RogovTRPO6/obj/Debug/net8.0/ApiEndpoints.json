@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Restaurant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuisine",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minRating",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "Create",
+    "RelativePath": "api/v1/Restaurant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "restaurant",
+        "Type": "RogovTRPO6.Models.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "Get",
+    "RelativePath": "api/v1/Restaurant/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "Put",
+    "RelativePath": "api/v1/Restaurant/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "restaurant",
+        "Type": "RogovTRPO6.Models.Restaurant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "Patch",
+    "RelativePath": "api/v1/Restaurant/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "restaurantDTO",
+        "Type": "RogovTRPO6.Models.RestaurantDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RogovTRPO6.Controllers.RestaurantController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Restaurant/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
